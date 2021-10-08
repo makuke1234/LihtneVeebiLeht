@@ -1,3 +1,3 @@
 # LihtneVeebiLeht
 
-Tegu on kodutööga TalTechi kursuse Sissejuhatus Infotehnoloogiasse raames.
+Tegu on kodutööga TalTechi kursuse sissejuhatus infotehnoloogiasse raames.
