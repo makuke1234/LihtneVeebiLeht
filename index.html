@@ -1,5 +1,117 @@
+<!DOCTYPE html>
 <html>
+	<head>
+		<title>Kodutöö proovileht</title>
+		<meta charset="utf-8">
+
+		<style>
+			img.sample_pic
+			{
+				width: 500px;
+				height: auto;
+				transition: 0.5s;
+			}
+			img.sample_pic:hover
+			{
+				cursor: pointer;
+				opacity: 0.7;
+			}
+			@font-face
+			{
+				font-family: 'My Font';
+				src: url('./assets/font.TTF');
+			}
+			body
+			{
+				font-weight: 100;
+				font-family: 'My Font';
+				font-size: 24px;
+				color: #00ff00;
+				background: linear-gradient(270deg, #0d00c2, #ff5100, #00564c);
+				background-size: 600% 600%;
+				animation: background-animation 15s ease infinite;
+			}
+			@keyframes background-animation
+			{
+				0%{background-position:0% 50%}
+				50%{background-position:100% 50%}
+				100%{background-position:0% 50%}
+			}
+			h1
+			{
+				font-family: 'Verdana';
+				font-size: 50px;
+				text-shadow: 2px 3px 5px #770000;
+				color: #ffff00;
+			}
+			p
+			{
+				opacity: 0.8;
+				color: #ff00ff;
+				text-shadow: 2px 2px 1px #ffffff;
+			}
+			a.custom
+			{
+				color:#ffff00;	
+			}
+		</style>
+	</head>
 	<body>
-		See on test.
+		<h2>
+			Kood: 213459
+		</h2>
+		<table>
+			<h1>
+				Kõige igavam tabel maailmas
+			</h1>
+			<tr>
+				<th>π komakoht</th>
+				<th>Algarv?</th>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Jah</td>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Ei</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>Ei</td>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Ei</td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>Jah</td>
+			</tr>
+			<tr>
+				<td>9</td>
+				<td>Ei</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Jah</td>
+			</tr>
+			<tr>
+				<td>...</td>
+				<td>...</td>
+			</tr>
+		</table>
+
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua...
+		</p>
+
+		<a href="./assets/download.jpg" target="_blank">
+		<img class="sample_pic" src="./assets/download.jpg" alt="Siia peaks tulema üks pilt."></a>
+
+		<br>
+		Link TalTech koduleheküljele asub <a class="custom" href="https://taltech.ee">siin</a>.
+
 	</body>
 </html>
